@@ -36,7 +36,8 @@ main.p{
     text-align: center;
 }
 
-#input,#button{
+#input_text,
+#button_1{
     height: 50px;
     border-radius: 15px;
     padding: 0 25px;
@@ -45,11 +46,11 @@ main.p{
 
 }
 
-#input{
+#input_text{
     width: 300px;
 }
 
-#reversed{
+#reversed_text{
     font-size: 20px;
     margin: 50px;
     padding: 10px;
