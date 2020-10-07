@@ -9,7 +9,7 @@ function reverseStringHandler() {
     console.log(input.value);
     let text = "";
     for (var i = input.value.length; i >= 0; i--) {
-        text = text + input.value.charAt(i)
+        text += input.value.charAt(i)
     }
 
 
