@@ -1,7 +1,7 @@
 
 
-const input = document.querySelector("#input");
-const button = document.querySelector("#button");
+const input = document.querySelector("#text_input");
+const button = document.querySelector("#button_1");
 
 button.addEventListener("click", reverseStringHandler);
 
@@ -14,5 +14,5 @@ function reverseStringHandler() {
 
 
 
-    document.querySelector("#reversed").innerText = text;
+    document.querySelector("#reversed_text").innerText = text;
 };
