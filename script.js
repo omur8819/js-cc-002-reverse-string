@@ -1,5 +1,3 @@
-
-
 const input = document.querySelector("#text_input");
 const button = document.querySelector("#button_1");
 
